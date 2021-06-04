@@ -1,0 +1,93 @@
+.owl-carousel {
+    width: 100% !important;
+}
+
+.timeline-img-item .timeline-img {
+    width: 100% !important;
+}
+
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+.owl-nav span{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #2caae1;
+}
+
+
+.owl-carousel .item {
+    text-align: center;
+}
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 10px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .owl-prev {
+    background: url(../img/nav-icon1.png) no-repeat scroll 0 0 !important;
+    left: -10px;
+}
+
+.owl-carousel .owl-next {
+    background: url(../img/nav-icon1.png) no-repeat scroll -24px 0px !important;
+    right: -10px;
+}
+
+@media screen and (max-width: 768px) {
+    .owl-carousel .next-slide {
+        right: -26px;
+    }
+    .owl-carousel .prev-slide {
+        left: -26px;
+    }
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+span.img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+}
+
+span.img-text:hover {
+    color: #2caae1;
+}
+.project-timeline-img-wrapper{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
