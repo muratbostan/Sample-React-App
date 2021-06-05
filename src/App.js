@@ -1,5 +1,8 @@
 import SideBar from './components/Sidebar/Sidebar'
 import Context from './components/Context/Context'
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar'
+
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 
 function App() {
@@ -8,9 +11,10 @@ function App() {
     <div className="App">
       <Switch>
           <Route path="/">
-          <header></header>
+            <Navbar/>
             <SideBar/>
             <Context/>
+            <Footer/>
           </Route>
       </Switch>
     </div>

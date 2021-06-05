@@ -15,11 +15,17 @@ body{
   color: #fff;
   background: #11101d;
 }
-header{
+.header{
   padding: 30px;
   background: #011627;
   height: 40px;
+  text-align: center;
+  color:white
 }
+.header img{
+  position: absolute;
+  left: 100px;
+  top: 10px;}
 .sidebar svg{
   font-size: 40px;
   color:white;
@@ -109,7 +115,7 @@ header{
 }
   
 .home_content{
-  position: absolute;
+  position: relative;
   width: calc(100% - 78px);
   left: 78px;
   background: #E4E9F7;
@@ -227,4 +233,15 @@ margin-top:10px ;
 .owl-dots{
   display: none;
 }
- 
+.App{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr 
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  background-color: #11101d;
+  color: white;
+  text-align: center;
+}

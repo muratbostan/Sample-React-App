@@ -2,7 +2,6 @@ import { useState } from 'react'
 import * as GiIcon from 'react-icons/gi'
 import { Link } from 'react-router-dom';
 
-// import logo from '../../assets/img/logo.png'
 
 
 function SideBar() {
